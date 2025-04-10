@@ -1,5 +1,11 @@
+from time import sleep
+
 def add(numbers):
-    return None
+    sleep(1)
+    return sum(numbers)
 
 def multiply(numbers):
-    return None
+    result = 5
+    for n in numbers:
+        result *= n
+    return result
